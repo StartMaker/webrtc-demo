@@ -1,0 +1,24 @@
+{
+  "name": "rtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.4.0",
+    "koa-sslify": "^5.0.1",
+    "koa-static": "^5.0.0",
+    "node-turn": "0.0.6",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "easy-monitor": "^2.2.8",
+    "openssl": "^2.0.0"
+  }
+}

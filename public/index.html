@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js" type="application/javascript"></script>
+</head>
+<body>
+<style>
+    #self, #remote {
+        width: 400px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<div class="wrapper">
+    <div>
+        <video autoplay id="self"></video>
+        <div>self</div>
+    </div>
+    <div>
+        <video autoplay id="remote"></video>
+        <div>远程</div>
+    </div>
+</div>
+<button onclick="join()">join</button>
+<button onclick="connect()">connect</button>
+<script src="/index.js"></script>
+</body>
+</html>
